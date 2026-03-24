@@ -7,7 +7,7 @@
   </div>
 
 <div align="center">
-    <a href="https://scarfbench.github.io/site"><img src="https://img.shields.io/badge/docs-scarfbench.github.io%2Fsite-blue?style=for-the-badge" alt="Documentation"></a>
+    <a href="https://scarfbench.github.io/site"><img src="https://img.shields.io/badge/site-scarfbench.info-blue?style=for-the-badge" alt="Documentation"></a>
     <a href="https://scarfbench.github.io/site/leaderboard/"><img src="https://img.shields.io/badge/leaderboard-view%20results-orange?style=for-the-badge" alt="Leaderboard"></a>
   </div>
   
@@ -25,6 +25,7 @@
   | Repository | Description |
   |---|---|
   | [**benchmark**](https://github.com/scarfbench/benchmark) | The core benchmark suite — all application examples with Dockerfiles, Makefiles, and smoke tests |
+  | [**CLI**](https://github.com/scarfbench/scarfbench-cli) | General purpose CLI to undertake all benchmark related tasks like pull/update, evaluate, etc. |
 
   ---
 
