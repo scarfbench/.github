@@ -14,6 +14,10 @@
   **ScarfBench** is a comprehensive benchmark suite of Java applications across **Jakarta EE**, **Quarkus**, and **Spring** frameworks, designed to systematically evaluate AI agents' ability to migrate enterprise Java
   applications while preserving functionality, idiomatic patterns, and architectural integrity.
 
+| Applications | Layers | Frameworks | Tests |
+|:---:|:---:|:---:|:---:|
+| 102 | 6 | 3 | 1,331 |
+
   > All applications have been manually converted and verified by experienced developers. Each implementation has undergone rigorous testing to ensure functional correctness, adherence to framework-specific idioms, and
   preservation of architectural integrity.
 
@@ -29,6 +33,13 @@
 
   ---
 
+## Releases
+
+| Version | Date | Description |
+|---------|------|-------------|
+| [v0.1.2](https://github.com/scarfbench/benchmark/releases/tag/v0.1.2) | 2026-03-25 | Standardized all Dockerfiles to use framework-native run commands (`spring-boot:run`, `quarkus:run`, `liberty:run`) |
+| [v0.1.1](https://github.com/scarfbench/benchmark/releases/tag/v0.1.1) | 2026-03-24 | Consolidated multi-module coffee-shop (Jakarta, Spring) into single Maven modules for strict architectural parity across frameworks; Dockerfile updates for PetClinic |
+| [v0.1.0](https://github.com/scarfbench/benchmark/releases/tag/v0.1.0) | 2026-03-19 | Initial release — 87 focused examples across 5 layers and 3 frameworks, plus 15 whole application variants |
   ## What's in the Benchmark?
 
   ScarfBench includes **two categories** of examples spanning **7 architectural layers** and **5 production-grade whole applications**, each implemented across all three target frameworks.
